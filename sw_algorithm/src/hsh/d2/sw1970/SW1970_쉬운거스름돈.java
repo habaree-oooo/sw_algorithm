@@ -2,7 +2,7 @@ package hsh.d2.sw1970;
 
 import java.util.Scanner;
 
-public class SW1970_½¬¿î°Å½º¸§µ· {
+public class SW1970_ì‰¬ìš´ê±°ìŠ¤ë¦„ëˆ {
 	public static void main(String[] args) {
 	
 		Scanner sc = new Scanner(System.in);
