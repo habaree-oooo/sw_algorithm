@@ -28,8 +28,6 @@ public class SW1970_쉬운거스름돈 {
 				int remain8 = remain7-(eightth * money[7]);
 			System.out.println("#"+tcn);
 			System.out.print(oneth+" "+towth+" "+threeth+" "+fourth+" "+fiveth+" "+sixth+" "+seventh+" "+eightth);
-		}
-
-	}
-
-}
+		}//tcn fot
+	}//main
+}//class
