@@ -1,0 +1,7 @@
+/.metadata/
+*/bin/**
+RemoteSystemsTempFiles/*
+*/.settings/**
+**/.classpath
+**/.project
+.recommenders/
