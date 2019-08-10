@@ -16,20 +16,20 @@ public class SW1954_달팽이숫자 {
 				for(int j=1; j<=n; j++) {
 					if(i%4==0){
 						map[x][y] = ++cnt;
-						if(j == n) x = x + 1;
-						else y = y + 1;
+						if(j == n) x++;
+						else y++;
 					}else if(i%4==1){
 						map[x][y] = ++cnt;
-						if(j == n) y = y - 1;
-						else x = x + 1;
+						if(j == n) y--;
+						else x++;
 					}else if(i%4==2){
 						map[x][y] = ++cnt;
-						if(j == n) x = x -1;
-						else y = y - 1;
+						if(j == n) x--;
+						else y--;
 					}else if(i%4==3){
 						map[x][y] = ++cnt;
-						if(j == n) y = y + 1;
-						else x = x - 1;
+						if(j == n) y++;
+						else x--;
 					}
 				}
 				if(i%2 == 0)n--;
@@ -38,9 +38,8 @@ public class SW1954_달팽이숫자 {
 			for(int i=0; i<map.length; i++) {
 				for(int j=0; j<map[i].length; j++)
 					System.out.printf("%d ", map[i][j]);
-				System.out.println();
+				System.out.printf("\n");
 			}
-					
 		}
 	}
 }
